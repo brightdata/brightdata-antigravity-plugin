@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "brightdata": {
+      "serverUrl": "https://mcp.brightdata.com/mcp/directory"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "bright-data",
+  "displayName": "Bright Data",
+  "version": "0.1.0",
+  "description": "Search the live web and read public pages with Bright Data. Pages come back as clean markdown, one at a time or up to five in a single call.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "What are the top 10 stories on https://news.ycombinator.com right now, with points? Use Bright Data.",
+    "What's the newest Python release on https://www.python.org/downloads/? Use Bright Data.",
+    "Compare the plans and prices on https://vercel.com/pricing and https://www.netlify.com/pricing/. Use Bright Data."
+  ],
+  "author": {
+    "name": "Bright Data",
+    "url": "https://brightdata.com"
+  },
+  "homepage": "https://docs.brightdata.com/products/mcp-server/overview",
+  "repository": "https://github.com/brightdata/brightdata-antigravity-plugin",
+  "license": "MIT",
+  "keywords": [
+    "web-search",
+    "web-scraping",
+    "web-fetch",
+    "search-results",
+    "markdown",
+    "research",
+    "mcp",
+    "bright-data"
+  ]
+}
