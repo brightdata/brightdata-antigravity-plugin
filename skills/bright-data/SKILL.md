@@ -39,6 +39,7 @@ When to call:
 
 Check every item in a batch, not only the call:
 
+- If the Bright Data tools are missing, or a call fails with a sign-in error, the user is not signed in. Stop and tell them to sign in: `/plugin` > **bright-data** > **Sign in** in the CLI, or **Customizations > Installed > Bright Data > Accounts** in the App. Do not look for the tools elsewhere.
 - If a call or a batch item returns an error, read what it says and act on it. If it still fails, tell the user plainly which URL or search failed, and answer only from what did come back.
 - If a page was cut and the answer is not in the returned text, call `scrape_as_markdown` with the same `url` and `format`, plus the `snapshot_id` and `start` from its `next` field.
 
